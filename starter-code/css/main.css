@@ -6,12 +6,9 @@ Green: #00B172
 White: #FFF
 
 */
-<<<<<<< HEAD
-front {
-    background-image: url('../images/landing.jpg');
-    background-size: cover;
-    margin: 0px 0;
-    padding: 200px 0;
+body{
+    font-family: Roboto, system-ui, sans-serif;
+      font-size: 150%;
 }
 
 section img {
@@ -48,11 +45,6 @@ ul {
     background-color: rgb(#1A1A1A);
     
   }
-  body{
-  font-family: Roboto, system-ui, sans-serif;
-    font-size: 150%;
-  }
-=======
 .what-is {
     display: flex;
     flex-direction: column;
@@ -67,7 +59,7 @@ ul {
 }
 .cards-title h2 {
     margin-bottom: 5px;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .features {
@@ -82,15 +74,14 @@ ul {
 
 .ftr {
     text-align: center;
-    width: 14%;
+    width: 20%;
 }
 
 .ftr h3 {
     color: #00B172;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .ftr p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
->>>>>>> fd178eb74fb4c22b8c86701c1584de9c9417a649

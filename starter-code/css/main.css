@@ -6,13 +6,6 @@ Green: #00B172
 White: #FFF
 
 */
-
-
-body {
-    
-}
-
-
 .rectangle {
   
     display: flex;
@@ -59,4 +52,83 @@ body {
 
 .image-app img {
     width: 60%;
+}
+body{
+    font-family: Roboto, system-ui, sans-serif;
+      font-size: 150%;
+}
+
+section img {
+    width: 200px;
+    margin:  15px 0px;
+}
+
+ul {
+    position: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+  }
+  nav{
+      float: right;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: rgb(#1A1A1A);
+    
+  }
+.what-is {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 600px;
+}
+
+.cards-title {
+    align-self: center;
+    border-bottom: 4px solid #00B172;
+    margin-bottom: 50px;
+}
+.cards-title h2 {
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ftr img {
+    width: 60%;
+}
+
+.ftr {
+    text-align: center;
+    width: 20%;
+}
+
+.ftr h3 {
+    color: #00B172;
+    font-size: 1.3em;
+}
+
+.ftr p {
+    font-size: 1.2em;
 }

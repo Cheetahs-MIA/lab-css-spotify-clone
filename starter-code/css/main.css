@@ -6,3 +6,43 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+section img {
+    width: 200px;
+    margin:  15px 0px;
+}
+
+ul {
+    position: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+  }
+  nav{
+      float: right;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: rgb(#1A1A1A);
+    
+  }
+  body{
+  font-family: Roboto, system-ui, sans-serif;
+    font-size: 81.25%;
+  }

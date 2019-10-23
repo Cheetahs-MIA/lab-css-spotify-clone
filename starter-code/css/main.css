@@ -6,8 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-<<<<<<< HEAD
-front {
+front{
     background-image: url('../images/landing.jpg');
     background-size: cover;
     margin: 0px 0;
@@ -52,8 +51,7 @@ ul {
   font-family: Roboto, system-ui, sans-serif;
     font-size: 150%;
   }
-=======
-.what-is {
+  .what-is {
     display: flex;
     flex-direction: column;
     background-color: #FFF;
@@ -93,4 +91,3 @@ ul {
 .ftr p {
     font-size: 1.3em;
 }
->>>>>>> fd178eb74fb4c22b8c86701c1584de9c9417a649

@@ -6,7 +6,12 @@ Green: #00B172
 White: #FFF
 
 */
-
+front {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    margin: 0px 0;
+    padding: 200px 0;
+}
 
 section img {
     width: 200px;
@@ -44,5 +49,5 @@ ul {
   }
   body{
   font-family: Roboto, system-ui, sans-serif;
-    font-size: 81.25%;
+    font-size: 150%;
   }

@@ -6,3 +6,57 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+    
+}
+
+
+.rectangle {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    bottom: 0;
+
+    height: 800px;
+    
+
+    background: #00B172;
+    
+    display: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+}
+
+.text {
+    font-size: 1.6em;
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+
+}
+
+
+
+
+
+
+.image-app {
+    display:flex;
+    justify-content: flex-end;
+    align-self: center;
+    justify-self: flex-end;
+    margin-right: 15%;
+   
+
+}
+
+.image-app img {
+    width: 60%;
+}

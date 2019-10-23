@@ -6,6 +6,24 @@ Green: #00B172
 White: #FFF
 
 */
+.image-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 900px;
+    color: white;
+}
+.paragraph {
+    width: 50%;
+    font-size: 1em;
+} 
+.image-back h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
 .rectangle {
   
     display: flex;
@@ -26,7 +44,7 @@ White: #FFF
 }
 
 .text {
-    font-size: 1.6em;
+    font-size: 1em;
     color: white;
     width: 40%;
     margin-left: 10%;

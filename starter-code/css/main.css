@@ -6,11 +6,64 @@ Green: #00B172
 White: #FFF
 
 */
+<<<<<<< HEAD
 front{
     background-image: url('../images/landing.jpg');
     background-size: cover;
     margin: 0px 0;
     padding: 200px 0;
+=======
+.rectangle {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    bottom: 0;
+
+    height: 800px;
+    
+
+    background: #00B172;
+    
+    display: auto;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 90%;
+}
+
+.text {
+    font-size: 1.6em;
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+   
+
+}
+
+
+
+
+
+
+.image-app {
+    display:flex;
+    justify-content: flex-end;
+    align-self: center;
+    justify-self: flex-end;
+    margin-right: 15%;
+   
+
+}
+
+.image-app img {
+    width: 60%;
+}
+body{
+    font-family: Roboto, system-ui, sans-serif;
+      font-size: 150%;
+>>>>>>> 0465fe5b04c4ca460e6f65e686de594c6579ae9a
 }
 
 section img {
@@ -47,11 +100,15 @@ ul {
     background-color: rgb(#1A1A1A);
     
   }
+<<<<<<< HEAD
   body{
   font-family: Roboto, system-ui, sans-serif;
     font-size: 150%;
   }
   .what-is {
+=======
+.what-is {
+>>>>>>> 0465fe5b04c4ca460e6f65e686de594c6579ae9a
     display: flex;
     flex-direction: column;
     background-color: #FFF;
@@ -65,7 +122,7 @@ ul {
 }
 .cards-title h2 {
     margin-bottom: 5px;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .features {
@@ -80,14 +137,19 @@ ul {
 
 .ftr {
     text-align: center;
-    width: 14%;
+    width: 20%;
 }
 
 .ftr h3 {
     color: #00B172;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .ftr p {
+<<<<<<< HEAD
     font-size: 1.3em;
 }
+=======
+    font-size: 1.2em;
+}
+>>>>>>> 0465fe5b04c4ca460e6f65e686de594c6579ae9a

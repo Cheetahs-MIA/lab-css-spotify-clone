@@ -6,6 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
+<<<<<<< HEAD
 front {
     background-image: url('../images/landing.jpg');
     background-size: cover;
@@ -51,3 +52,45 @@ ul {
   font-family: Roboto, system-ui, sans-serif;
     font-size: 150%;
   }
+=======
+.what-is {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 600px;
+}
+
+.cards-title {
+    align-self: center;
+    border-bottom: 4px solid #00B172;
+    margin-bottom: 50px;
+}
+.cards-title h2 {
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ftr img {
+    width: 60%;
+}
+
+.ftr {
+    text-align: center;
+    width: 14%;
+}
+
+.ftr h3 {
+    color: #00B172;
+    font-size: 1.5em;
+}
+
+.ftr p {
+    font-size: 1.3em;
+}
+>>>>>>> fd178eb74fb4c22b8c86701c1584de9c9417a649

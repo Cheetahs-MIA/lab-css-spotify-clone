@@ -1,18 +1,21 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-<<<<<<< HEAD
-front{
-    background-image: url('../images/landing.jpg');
+.image-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/landing.jpg");
     background-size: cover;
-    margin: 0px 0;
-    padding: 200px 0;
-=======
+    height: 900px;
+    color: white;
+}
+.paragraph {
+    width: 50%;
+    font-size: 1em;
+} 
+.image-back h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
 .rectangle {
   
     display: flex;
@@ -33,7 +36,7 @@ front{
 }
 
 .text {
-    font-size: 1.6em;
+    font-size: 1em;
     color: white;
     width: 40%;
     margin-left: 10%;
@@ -63,7 +66,6 @@ front{
 body{
     font-family: Roboto, system-ui, sans-serif;
       font-size: 150%;
->>>>>>> 0465fe5b04c4ca460e6f65e686de594c6579ae9a
 }
 
 section img {
@@ -100,15 +102,7 @@ ul {
     background-color: rgb(#1A1A1A);
     
   }
-<<<<<<< HEAD
-  body{
-  font-family: Roboto, system-ui, sans-serif;
-    font-size: 150%;
-  }
-  .what-is {
-=======
 .what-is {
->>>>>>> 0465fe5b04c4ca460e6f65e686de594c6579ae9a
     display: flex;
     flex-direction: column;
     background-color: #FFF;
@@ -146,10 +140,5 @@ ul {
 }
 
 .ftr p {
-<<<<<<< HEAD
-    font-size: 1.3em;
-}
-=======
     font-size: 1.2em;
 }
->>>>>>> 0465fe5b04c4ca460e6f65e686de594c6579ae9a
